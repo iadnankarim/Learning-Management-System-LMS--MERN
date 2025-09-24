@@ -10,7 +10,7 @@ This project supports **user authentication, course & lecture management, profil
 ---
 
 ## 🌍 Live Demo
-
+#make you can login  offical account with your credentials then you go admin if you go directly admin you will not accessable 
 - **Official Site**: [LMS Project](https://learning-management-system-lms-mern.onrender.com/)
 - **Admin Dashboard**: [Admin Panel](https://learning-management-system-lms-mern.onrender.com/admin)
 
