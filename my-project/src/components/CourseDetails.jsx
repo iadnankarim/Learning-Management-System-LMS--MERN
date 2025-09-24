@@ -33,7 +33,7 @@ const CourseDetails = () => {
     const getCourseLecture = async () => {
       try {
         const res = await axios.get(
-          `https://lms-rpbb.onrender.com/api/v1/course/${courseId}/lecture`,
+          `https://learning-management-system-lms-mern.onrender.com/api/v1/course/${courseId}/lecture`,
           { withCredentials: true }
         );
         if (res.data.success) {

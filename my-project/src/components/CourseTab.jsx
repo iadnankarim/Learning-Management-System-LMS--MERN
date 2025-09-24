@@ -39,7 +39,7 @@ const CourseTab = () => {
   const getCourseById = async () => {
     try {
       const res = await axios.get(
-        `https://lms-rpbb.onrender.com/api/v1/course/${id}`,
+        `https://learning-management-system-lms-mern.onrender.com/api/v1/course/${id}`,
         { withCredentials: true }
       );
       if (res.data.success) {
@@ -53,7 +53,7 @@ const CourseTab = () => {
   const getCreatorCourse = async () => {
     try {
       const res = await axios.get(
-        "https://lms-rpbb.onrender.com/api/v1/course/",
+        "https://learning-management-system-lms-mern.onrender.com/api/v1/course/",
         { withCredentials: true }
       );
       if (res.data.success) {
@@ -118,7 +118,7 @@ const CourseTab = () => {
     try {
       dispatch(setLoading(true));
       const res = await axios.put(
-        `https://lms-rpbb.onrender.com/api/v1/course/${id}`,
+        `https://learning-management-system-lms-mern.onrender.com/api/v1/course/${id}`,
         formData,
         {
           headers: {
@@ -146,7 +146,7 @@ const CourseTab = () => {
 
     try {
       const res = await axios.patch(
-        `https://lms-rpbb.onrender.com/api/v1/course/${id}`,
+        `https://learning-management-system-lms-mern.onrender.com/api/v1/course/${id}`,
         {
           params: {
             action,

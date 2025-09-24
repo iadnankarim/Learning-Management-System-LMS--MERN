@@ -75,7 +75,7 @@ const Course = () => {
     const getCreatorCourse = async () => {
       try {
         const res = await axios.get(
-          "https://lms-rpbb.onrender.com/api/v1/course/",
+          "https://learning-management-system-lms-mern.onrender.com/api/v1/course/",
           { withCredentials: true }
         );
         if (res.data.success) {

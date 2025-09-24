@@ -35,7 +35,7 @@ const CreateCourse = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        "https://lms-rpbb.onrender.com/api/v1/course/",
+        "https://learning-management-system-lms-mern.onrender.com/api/v1/course/",
         { courseTitle, category },
         {
           headers: {

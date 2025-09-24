@@ -22,10 +22,10 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://lms-rpbb.onrender.com",
-    // https://lms-rpbb.onrender.com
+    origin: "https://learning-management-system-lms-mern.onrender.com",
+    // https://learning-management-system-lms-mern.onrender.com
     credentials: true,
-    // https://lms-rpbb.onrender.com
+    // https://learning-management-system-lms-mern.onrender.com
   })
 );
 

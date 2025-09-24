@@ -62,7 +62,7 @@ const Courses = () => {
     const getAllPublishedCourse = async () => {
       try {
         const res = await axios.get(
-          "https://lms-rpbb.onrender.com/api/v1/course/published-courses",
+          "https://learning-management-system-lms-mern.onrender.com/api/v1/course/published-courses",
           { withCredentials: true }
         );
         if (res.data.success) {

@@ -46,7 +46,7 @@ const LectureTab = () => {
       setMediaProgress(true);
       try {
         const res = await axios.post(
-          `https://lms-rpbb.onrender.com/api/v1/media/upload-video`,
+          `https://learning-management-system-lms-mern.onrender.com/api/v1/media/upload-video`,
           formData,
           {
             onUploadProgress: ({ loaded, total }) => {
@@ -83,7 +83,7 @@ const LectureTab = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        `https://lms-rpbb.onrender.com/api/v1/course/${courseId}/lecture/${lectureId}`,
+        `https://learning-management-system-lms-mern.onrender.com/api/v1/course/${courseId}/lecture/${lectureId}`,
         data,
         {
           headers: {
@@ -111,7 +111,7 @@ const LectureTab = () => {
     try {
       setRemoveLoading(true);
       const res = await axios.delete(
-        `https://lms-rpbb.onrender.com/api/v1/course/lecture/${lectureId}`,
+        `https://learning-management-system-lms-mern.onrender.com/api/v1/course/lecture/${lectureId}`,
         { withCredentials: true }
       );
       if (res.data.success) {

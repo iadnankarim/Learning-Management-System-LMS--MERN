@@ -17,7 +17,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
   const logoutHandler = async (e) => {
     try {
       const res = await axios.get(
-        "https://lms-rpbb.onrender.com/api/v1/user/logout",
+        "https://learning-management-system-lms-mern.onrender.com/api/v1/user/logout",
         { withCredentials: true }
       );
       if (res.data.success) {

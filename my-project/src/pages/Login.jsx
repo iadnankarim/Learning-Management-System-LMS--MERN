@@ -33,7 +33,7 @@ const Login = () => {
     try {
       dispatch(setLoading(true));
       const response = await axios.post(
-        "https://lms-rpbb.onrender.com/api/v1/user/login",
+        "https://learning-management-system-lms-mern.onrender.com/api/v1/user/login",
         input,
         {
           headers: {

@@ -84,7 +84,7 @@ const Profile = () => {
     try {
       setLoading(true);
       const res = await axios.put(
-        "https://lms-rpbb.onrender.com/api/v1/user/profile/update",
+        "https://learning-management-system-lms-mern.onrender.com/api/v1/user/profile/update",
         formData,
         {
           headers: {
